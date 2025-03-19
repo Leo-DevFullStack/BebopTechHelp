@@ -9,3 +9,8 @@
 # 📬 Formulário de Abertura de Chamado - Bebop Tech Help
 
 Este é um formulário fictício criado para simular a abertura de chamados de suporte técnico em um ambiente de cartório, como parte do projeto Bebop Tech Help.
+
+## 🧰 Tecnologias utilizadas
+
+- HTML + CSS + JS Vanilla
+- API SheetDB (Google Sheets como backend)
