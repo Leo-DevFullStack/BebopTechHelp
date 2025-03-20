@@ -14,3 +14,8 @@ Este é um formulário fictício criado para simular a abertura de chamados de s
 
 - HTML + CSS + JS Vanilla
 - API SheetDB (Google Sheets como backend)
+
+## ✅ Funcionalidade
+
+- Usuário preenche nome, email, departamento e descrição do problema.
+- Dados são enviados para uma planilha do Google via API SheetDB.
