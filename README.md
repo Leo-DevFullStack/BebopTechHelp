@@ -14,6 +14,10 @@ Este é um formulário fictício criado para simular a abertura de chamados de s
 
 Simulação de sistema de suporte técnico com integração em nuvem via *API SheetDB* e *Google Sheets. Este protótipo faz parte do projeto fictício acadêmico desenvolvido para a Feira Cultural do curso de **Análise e Desenvolvimento de Sistemas - UNIP (3º Semestre)*.
 
+## 📌 Visão Geral
+
+Este formulário permite simular a abertura de chamados técnicos em um cartório digital. Utiliza *HTML, CSS e JavaScript Vanilla* e envia os dados preenchidos para uma *planilha do Google* conectada via *SheetDB*, funcionando como um "back-end sem servidor".
+
 ## 🧰 Tecnologias utilizadas
 
 - HTML + CSS + JS Vanilla
