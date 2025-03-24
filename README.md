@@ -31,3 +31,10 @@ Este formulário permite simular a abertura de chamados técnicos em um cartóri
 
 - Usuário preenche nome, email, departamento e descrição do problema.
 - Dados são enviados para uma planilha do Google via API SheetDB.
+
+## ✨ Funcionalidades
+
+- Formulário com campos obrigatórios: nome, e-mail, departamento e descrição do problema.
+- Integração com API REST (SheetDB) que registra os dados em uma planilha.
+- Validação básica de campos no frontend.
+- Mensagem de confirmação ou erro após o envio.
