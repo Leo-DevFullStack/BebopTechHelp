@@ -22,15 +22,10 @@ Este formulário permite simular a abertura de chamados técnicos em um cartóri
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript
 - [SheetDB](https://sheetdb.io)
 - Google Sheets (como banco de dados)
-- Git (opcional para versionamento)
-
-## ✅ Funcionalidade
-
-- Usuário preenche nome, email, departamento e descrição do problema.
-- Dados são enviados para uma planilha do Google via API SheetDB.
+- Git (para versionamento)
 
 ## ✨ Funcionalidades
 
