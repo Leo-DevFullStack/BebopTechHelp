@@ -33,3 +33,7 @@ Este formulário permite simular a abertura de chamados técnicos em um cartóri
 - Integração com API REST (SheetDB) que registra os dados em uma planilha.
 - Validação básica de campos no frontend.
 - Mensagem de confirmação ou erro após o envio.
+
+## 📸 Demonstração
+
+Vou add aqui um GIF ou captura de tela do formulário funcionando.
