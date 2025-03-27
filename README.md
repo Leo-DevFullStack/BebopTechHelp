@@ -18,6 +18,12 @@ Simulação de sistema de suporte técnico com integração em nuvem via *API Sh
 
 Este formulário permite simular a abertura de chamados técnicos em um cartório digital. Utiliza *HTML, CSS e JavaScript Vanilla* e envia os dados preenchidos para uma *planilha do Google* conectada via *SheetDB*, funcionando como um "back-end sem servidor".
 
+## 🚦 Status do Projeto
+
+- ✅ *Protótipo Funcional em Andamento*
+- 🚧 *Fazer melhorias para possíveis telas de consulta e autenticação*
+- 📅 *Apresentação: 05/06/2025*
+
 ## 🧰 Tecnologias Utilizadas
 
 - HTML5
