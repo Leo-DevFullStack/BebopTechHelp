@@ -43,3 +43,11 @@ Este formulário permite simular a abertura de chamados técnicos em um cartóri
 ## 📸 Demonstração
 
 Vou add aqui um GIF ou captura de tela do formulário funcionando.
+
+## 🚀 Como Usar
+
+1. *Clone o projeto ou baixe os arquivos HTML.*
+
+2. *Crie uma planilha no Google Sheets* com o cabeçalho:
+
+nome | email | departamento | problema
