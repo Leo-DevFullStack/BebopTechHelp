@@ -51,3 +51,17 @@ Vou add aqui um GIF ou captura de tela do formulário funcionando.
 2. *Crie uma planilha no Google Sheets* com o cabeçalho:
 
 nome | email | departamento | problema
+
+3. *Cadastre a planilha em [https://sheetdb.io](https://sheetdb.io)* e gere sua URL da API.
+
+4. *No arquivo HTML*, substitua SEU_HASH_API com sua URL:
+
+```js
+fetch('https://sheetdb.io/api/v1/SEU_HASH_API', {
+  method: 'POST',
+  ...
+})
+
+Abra o arquivo index.html no navegador.
+
+Teste o envio de dados. Os chamados aparecerão automaticamente na sua planilha conectada.
