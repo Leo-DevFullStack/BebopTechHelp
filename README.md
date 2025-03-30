@@ -40,6 +40,12 @@ Este formulário permite simular a abertura de chamados técnicos em um cartóri
 - Validação básica de campos no frontend.
 - Mensagem de confirmação ou erro após o envio.
 
+## 💡 Funcionalidades Futuras (Ideias)
+- Consulta e listagem de chamados abertos.
+- Filtro por status ou departamento.
+- Sistema de resposta automática com IA simulada.
+- Autenticação simples (ex: com código do funcionário)
+
 ## 📸 Demonstração
 
 Vou add aqui um GIF ou captura de tela do formulário funcionando.
@@ -61,7 +67,7 @@ fetch('https://sheetdb.io/api/v1/SEU_HASH_API', {
   method: 'POST',
   ...
 })
-
+```
 Abra o arquivo index.html no navegador.
 
 Teste o envio de dados. Os chamados aparecerão automaticamente na sua planilha conectada.
