@@ -71,3 +71,6 @@ fetch('https://sheetdb.io/api/v1/SEU_HASH_API', {
 Abra o arquivo index.html no navegador.
 
 Teste o envio de dados. Os chamados aparecerão automaticamente na sua planilha conectada.
+
+## 🔐 Segurança e Privacidade
+*⚠️ Este projeto é educacional e não possui autenticação ou criptografia. Para uso real, seria necessário implementar protocolo HTTPS, autenticação e medidas de segurança compatíveis com a LGPD, dentre outras funcionalidades e tecnologias*
