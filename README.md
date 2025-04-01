@@ -82,3 +82,4 @@ Teste o envio de dados. Os chamados aparecerão automaticamente na sua planilha 
 - Leonardo Mesquita Dalmazzo Antunes
 - Naomy Cristina Aguiar de Oliveira
 - Vitor de Oliveira Costa
+- **Orientação:** Coordenadora: Gislaine Stachissini
