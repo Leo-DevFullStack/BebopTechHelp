@@ -74,3 +74,11 @@ Teste o envio de dados. Os chamados aparecerão automaticamente na sua planilha 
 
 ## 🔐 Segurança e Privacidade
 *⚠️ Este projeto é educacional e não possui autenticação ou criptografia. Para uso real, seria necessário implementar protocolo HTTPS, autenticação e medidas de segurança compatíveis com a LGPD, dentre outras funcionalidades e tecnologias*
+
+## 👨‍💻 Desenvolvedores
+- Alice Aquino de Sousa
+- Beatriz da Silva Belchior Dias
+- Leonardo Dantas Santos Jutglar
+- Leonardo Mesquita Dalmazzo Antunes
+- Naomy Cristina Aguiar de Oliveira
+- Vitor de Oliveira Costa
