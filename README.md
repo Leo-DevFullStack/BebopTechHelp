@@ -83,3 +83,6 @@ Teste o envio de dados. Os chamados aparecerão automaticamente na sua planilha 
 - Naomy Cristina Aguiar de Oliveira
 - Vitor de Oliveira Costa
 - **Orientação:** Coordenadora: Gislaine Stachissini
+
+## 📃 Licença
+Projeto acadêmico, sem fins comerciais. Código aberto para fins educacionais.
