@@ -13,7 +13,7 @@ const form = document.getElementById('chamadoForm');
         }
       };
 
-      fetch('https://sheetdb.io/api/v1/SEU_HASH_API', {
+      fetch('https://sheetdb.io/api/v1/ps0ajjy90y18e', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
