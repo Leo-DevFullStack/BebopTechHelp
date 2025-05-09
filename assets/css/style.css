@@ -29,6 +29,12 @@ body {
       text-align: center;
       padding-bottom: 20px;
     }
+    .banner {
+      max-width: 80%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
     label {
       display: block;
       margin-top: 15px;
