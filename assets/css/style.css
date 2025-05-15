@@ -101,3 +101,14 @@ footer {
   font-size: 0.9em;
   color: #ffffff;
 }
+
+#agradecimento {
+  display: none;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e6ffed;
+  border: 1px solid #b2f2bb;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
