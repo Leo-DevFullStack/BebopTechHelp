@@ -125,3 +125,8 @@ footer {
 #lista-chamados h3 {
   margin-bottom: 15px;
 }
+
+#lista-chamados ul {
+  list-style: none;
+  padding-left: 0;
+}
