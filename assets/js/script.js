@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
   agradecimento.innerHTML = '<h2>Chamado enviado com sucesso!</h2><p>Obrigado por registrar seu problema. Nossa equipe entrará em contato em breve.</p>';
   form.parentNode.insertBefore(agradecimento, form.nextSibling);
 
-  
+  const listaChamados = document.createElement('div');
+  listaChamados.id = 'lista-chamados';
+  listaChamados.innerHTML = '<h3 style="color: #007bff;">Chamados Recentes:</h3><ul id="lista"></ul>';
+  agradecimento.parentNode.insertBefore(listaChamados, agradecimento.nextSibling);
 
 });
