@@ -13,5 +13,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
-
+  });
 });
