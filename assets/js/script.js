@@ -11,4 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   listaChamados.innerHTML = '<h3 style="color: #007bff;">Chamados Recentes:</h3><ul id="lista"></ul>';
   agradecimento.parentNode.insertBefore(listaChamados, agradecimento.nextSibling);
 
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
 });
