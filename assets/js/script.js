@@ -13,5 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
+
+    const nome = form.nome.value.trim();
+    const email = form.email.value.trim();
+    const departamento = form.departamento.value;
+    const problema = form.problema.value.trim();
+
+
   });
 });
