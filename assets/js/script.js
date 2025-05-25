@@ -19,6 +19,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const departamento = form.departamento.value;
     const problema = form.problema.value.trim();
 
+    if (!nome || !email || !departamento || !problema) {
+      mensagem.textContent = 'Por favor, preencha todos os campos.';
+      mensagem.style.color = 'red';
+      return;
+    }
+
 
   });
 });
