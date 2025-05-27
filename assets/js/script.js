@@ -29,6 +29,15 @@ document.addEventListener('DOMContentLoaded', () => {
       data: { nome, email, departamento, problema }
     };
 
+    fetch('https://sheetdb.io/api/v1/ps0ajjy90y18e', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(dados)
+    })
+
+
 
   });
 });
