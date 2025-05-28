@@ -36,8 +36,14 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       body: JSON.stringify(dados)
     })
-
-
+    .then(response => response.json())
+    .then(data => {
+      form.reset();
+      form.style.display = 'none';
+      mensagem.textContent = '';
+      agradecimento.style.display = 'block';
+      listaChamados.style.display = 'block';
+    })
 
   });
 });
