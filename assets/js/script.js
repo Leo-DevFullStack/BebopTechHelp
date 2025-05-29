@@ -43,6 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
       mensagem.textContent = '';
       agradecimento.style.display = 'block';
       listaChamados.style.display = 'block';
+      document.getElementById('lista').innerHTML += `<li><strong>${nome}</strong> - ${departamento}<br><em>${problema}</em></li>`;
     })
 
   });
