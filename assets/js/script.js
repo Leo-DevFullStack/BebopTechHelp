@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('chamadoForm');
   const mensagem = document.getElementById('mensagem');
@@ -36,19 +37,19 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       body: JSON.stringify(dados)
     })
-    .then(response => response.json())
-    .then(data => {
-      form.reset();
-      form.style.display = 'none';
-      mensagem.textContent = '';
-      agradecimento.style.display = 'block';
-      listaChamados.style.display = 'block';
-      document.getElementById('lista').innerHTML += `<li><strong>${nome}</strong> - ${departamento}<br><em>${problema}</em></li>`;
-    })
-    .catch(error => {
-      mensagem.textContent = 'Erro ao enviar chamado. Tente novamente mais tarde.';
-      mensagem.style.color = 'red';
-      console.error('Erro:', error);
-    });
+      .then(response => response.json())
+      .then(data => {
+        form.reset();
+        form.style.display = 'none';
+        mensagem.textContent = '';
+        agradecimento.style.display = 'block';
+        listaChamados.style.display = 'block';
+        document.getElementById('lista').innerHTML += `<li><strong>${nome}</strong> - ${departamento}<br><em>${problema}</em></li>`;
+      })
+      .catch(error => {
+        mensagem.textContent = 'Erro ao enviar chamado. Tente novamente mais tarde.';
+        mensagem.style.color = 'red';
+        console.error('Erro:', error);
+      });
   });
 });
