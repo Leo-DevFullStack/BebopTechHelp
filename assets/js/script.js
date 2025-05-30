@@ -45,6 +45,10 @@ document.addEventListener('DOMContentLoaded', () => {
       listaChamados.style.display = 'block';
       document.getElementById('lista').innerHTML += `<li><strong>${nome}</strong> - ${departamento}<br><em>${problema}</em></li>`;
     })
-
+    .catch(error => {
+      mensagem.textContent = 'Erro ao enviar chamado. Tente novamente mais tarde.';
+      mensagem.style.color = 'red';
+      console.error('Erro:', error);
+    });
   });
 });
