@@ -8,15 +8,14 @@
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f2f4f8;
   margin: 0;
   padding: 0;
   color: #333;
-  background: url(../images/bg.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #000000;
 }
 
 h1 {
@@ -28,6 +27,7 @@ h1 {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  margin-top: 5.0em;
 }
 
 header {
