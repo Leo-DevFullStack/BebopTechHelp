@@ -45,6 +45,8 @@ header {
 .subtitulo {
   font-size: 1.2em;
   color: #ffffff;
+  margin-top: 1.0em;
+  margin-bottom: 1.0em;
 }
 
 form {
@@ -101,6 +103,7 @@ footer {
   margin-top: 40px;
   font-size: 0.9em;
   color: #ffffff;
+  margin-top: 3.5em;
 }
 
 #agradecimento {
